@@ -175,11 +175,18 @@ h2 {
     margin: 3px auto;
 }
 
+
 .img-container>img {
     height: 320px;
     width: 500px;
     box-shadow: 5px 11.45px 15px #07070731;
     border-radius: 4px;
+}
+
+.img-container>img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 5px 11.45px 22px #07070723;
 }
 
 /* Footer Section */
@@ -190,6 +197,7 @@ h2 {
     align-items: center;
     box-shadow: 0 1px 5px #14141460;
     padding: 15px;
+    margin-top: 99px;
     
 }
 
