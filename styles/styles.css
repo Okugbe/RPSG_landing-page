@@ -48,6 +48,12 @@ body {
     list-style-type: none;
 }
 
+li:hover {
+    font-weight: 600;
+    transform: scale(1.08);
+    transition: 0.1s;
+}
+
 .logo {
     width: 66px;
     height: 66px;
@@ -110,10 +116,11 @@ li a {
     padding: 20px;
 }
 
-.icons:hover, .icons>i:hover {
+.icons:hover {
     transform: scale(1.08);
     transition: 0.3s;
     background-color: #011725;
+    color: #fff;
 }
 
 .icons i:hover {
